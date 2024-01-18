@@ -1,0 +1,37 @@
+At my company we usually do a set of day 1 operations.
+
+Configure persistent storage
+
+Configure root certificate and wildcard certificate
+
+Configure openshift API server certificate
+
+Configure an IDP for authentication to the API
+
+configure a way for user rbac (usually this is done via AD/LDAP and using ldapsyncconfig)
+
+Label nodes
+
+Install a set of operators, depending on needs
+
+Cert manager
+
+Sealed secrets
+
+Elastic search operator
+
+Redhat logging operator
+
+Configure registry with persistent storage
+
+Configure openshift monitoring
+
+Configure openshift logging
+
+Configure the ingress controller
+
+Configure the web console
+
+Configure project request template
+
+Configure egress Network
